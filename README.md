@@ -44,9 +44,12 @@ Here the intron channel will be shown with red circles, and the speckle channel 
 #### Next, zoom in so that you can see individual pixels:
 <img src="https://github.com/katealexander/distanceToSpeckle-semiManual/blob/master/distToSpeckleImages/Second.png" alt="drawing" width="700"/>
   
-#### Finally, click on the edge of the nearest speckle to the red circle. If the red circle is in a speckle, click directly on the middle of the red circle.
+#### Finally, click on the edge of the nearest speckle to the red circle. If the red circle is in a speckle, click directly in the middle of the red circle.
 <img src="https://github.com/katealexander/distanceToSpeckle-semiManual/blob/master/distToSpeckleImages/Third.png" alt="drawing" width="700"/>
 
   
 A green circle will appear. Do not worry if the green circle is not where you clicked! The subsequent measurments are based on where you click, not where the green circle appears. If you are unsure which speckle is the closest, click on both speckles. We later identify the nearest clicked location to each transcription site.
+
+## Extracting clicked data from MATLAB
+
 
