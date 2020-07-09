@@ -36,16 +36,15 @@ Where this analysis differs from the standard use of rajlabimage tools is its co
 ```
 improc2.txnSites2.launchGUI('tmr','alexa')
 ```
-Here the intron channel will be shown with red circles, and the speckle channel will be shown in green. For measuring speckle distances, I prefer to use the black and white mode:
+Here the intron channel will be shown with red circles, and the speckle channel will be shown in green. For measuring speckle distances, I prefer to use the black and white mode.
 
+#### This involves switching to the "Exon" channel on the left.
 <img src="https://github.com/katealexander/distanceToSpeckle-semiManual/blob/master/distToSpeckleImages/First.png" alt="drawing" width="700"/>
-This involves switching to the "Exon" channel on the left.
-  
-  
-Next, zoom in so that you can see individual pixels:
+
+#### Next, zoom in so that you can see individual pixels:
 <img src="https://github.com/katealexander/distanceToSpeckle-semiManual/blob/master/distToSpeckleImages/Second.png" alt="drawing" width="700"/>
   
-Finally, click on the edge of the nearest speckle to the red circle. If the red circle is in a speckle, click directly on the middle of the red circle.
+#### Finally, click on the edge of the nearest speckle to the red circle. If the red circle is in a speckle, click directly on the middle of the red circle.
 <img src="https://github.com/katealexander/distanceToSpeckle-semiManual/blob/master/distToSpeckleImages/Third.png" alt="drawing" width="700"/>
 
   
