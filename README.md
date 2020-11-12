@@ -15,7 +15,7 @@ improc2.processImageObjects
 ```
 improc2.launchThresholdGUI
 ```
-Also threshold the speckle channel. The exact thresholding doesn't matter for the analysis, but if too many spots are selected, the Gaussian fitting in subsequent steps will take a long time to run.
+Also threshold the speckle channel. The exact thresholding of the speckle channel doesn't matter for the analysis, but if too many spots are selected, the Gaussian fitting in subsequent steps will take a long time to run.
 #### Transcription site calling
 ```
 improc2.txnSites2.launchGUI('tmr','alexa')
