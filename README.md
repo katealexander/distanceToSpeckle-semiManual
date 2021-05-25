@@ -34,7 +34,7 @@ gfp - immunofluorescence speckle channel
 ## Clicking nearest speckle
 Where this analysis differs from the standard use of rajlabimage tools is its cooptation to assess speckle distances. To measure speckle distances, we make use of the Transcription Site GUI used above, which stores the coordinates of the clicked locations. We therefore run transcription site calling again, but this time with the speckle channel as the "exons"
 ```
-improc2.txnSites2.launchGUI('tmr','alexa')
+improc2.txnSites2.launchGUI('gfp','alexa')
 ```
 Here the intron channel will be shown with red circles, and the speckle channel will be shown in green. For measuring speckle distances, I prefer to use the black and white mode.
 
