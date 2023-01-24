@@ -97,7 +97,7 @@ pixel = float(0.13)
 #### RNA-FISH data
 For RNA-FISH data, several data are collected and reported.
 ```
-USAGE: python calcSpeckleDists.py exonIntron.csv sc35Intron.csv BigTable.txt > outfile
+USAGE: python calcDistSpeckle.py exonIntron.csv sc35Intron.csv BigTable.txt > outfile
 ```
 The above Python script will output a text file of the following format:
 ```
