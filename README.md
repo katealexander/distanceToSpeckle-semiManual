@@ -76,7 +76,7 @@ For DNA-FISH data, use DNA-FISH_extraction_oneGene.m
 #### DNA-FISH data
 For DNA-FISH data just the distance from the loci to the nearest speckle is calculated
 ```
-USAGE: python calcSpeckleDist_DNAfish.py BigTable.txt speckle_p53targ.csv > outfile
+USAGE: python calcDistSpeckle_DNAfish.py BigTable.txt speckle_p53targ.csv > outfile
 ```
 The above Python script will output a text file of the following format:
 ```
@@ -97,7 +97,7 @@ pixel = float(0.13)
 #### RNA-FISH data
 For RNA-FISH data, several data are collected and reported.
 ```
-USAGE: python calcDistSpeckle.py exonIntron.csv sc35Intron.csv BigTable.txt > outfile
+USAGE: python calcSpeckleDist.py exonIntron.csv sc35Intron.csv BigTable.txt > outfile
 ```
 The above Python script will output a text file of the following format:
 ```
